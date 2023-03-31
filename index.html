@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="./script.js"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unit259</title>
+</head>
+<header class="header sticky top-0 bg-[#131516] shadow-md flex items-center justify-center px-8 z-50 align-middle text-white border-purple-900 border-solid">
+    <nav class="nav font-semibold text-lg">
+        <ul class="flex items-center">
+            <li class="p-4 border-b-2 border-purple-900 border-opacity-100 hover:border-opacity-100 hover:text-purple-900 duration-200 cursor-pointer" id="header1">
+              <a href="#">Jakoby</a>
+            </li>
+            <li class="p-4 border-b-2 border-purple-900 border-opacity-100 hover:border-opacity-100 hover:text-purple-900 duration-200 cursor-pointer" id="header2">
+              <a href="#">Sysgerm</a>
+            </li>
+            <li class="p-4 border-b-2 border-purple-900 border-opacity-100 hover:border-opacity-100 hover:text-purple-900 duration-200 cursor-pointer" id="header3">
+              <a href="#">Cosmo</a>
+            </li>
+            <li class="p-4 border-b-2 border-purple-900 border-opacity-100 hover:border-opacity-100 hover:text-purple-900 duration-200 cursor-pointer" id="header4">
+              <a href="#">Matze</a>
+            </li>
+            <li class="p-4 border-b-2 border-purple-900 border-opacity-100 hover:border-opacity-100 hover:text-purple-900 duration-200 cursor-pointer" id="header5">
+                <a href="#">Atom</a>
+            </li>
+            <li class="p-4 border-b-2 border-purple-900 border-opacity-100 hover:border-opacity-100 hover:text-purple-900 duration-200 cursor-pointer" id="header6">
+                <a href="#">Haze</a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<body onload="setupVideo()">
+    <div class="h-screen">
+      <video id="intro" class="object-cover h-screen w-screen -mt-[6.5vh]" muted src="./assets/cyber-intro.mp4" type="video/mp4 "></video>
+      <img id="logo" src="./assets/logo.png" class="hidden object-cover h-screen w-screen -mt-[6.5vh]">
+    </div>
+</body>
+</html>
