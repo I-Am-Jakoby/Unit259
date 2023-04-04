@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Button to interact with local URL protocol</title>
+  </head>
+  <body>
+    <button id="myButton">Click me</button>
+    <script>
+      document.getElementById("myButton").addEventListener("click", function() {
+        window.location.href = "myprotocol://mycommand";
+      });
+    </script>
+  </body>
+</html>
